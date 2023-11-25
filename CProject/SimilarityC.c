@@ -45,6 +45,10 @@ class TestStruct {
 class TestStruct {
   
 }
+
+//Pythonの場合
+class TestStruct:
+  m_value
 */
 struct TestStruct
 {
@@ -146,6 +150,23 @@ function Test2($in)
 
   return;
 }
+
+//Pythonの場合
+def Test(num):
+  return num * num
+
+def Test2(in):
+  if(in)
+    return
+
+  for(i = 0;i<10;i++):
+    continue
+
+  while(in):
+    break
+
+  return
+
 */
 int Test(int num)
 {
