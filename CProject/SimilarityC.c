@@ -26,6 +26,37 @@ g_num = 0
 */
 int g_num = 0;
 
+
+/*
+//Javaの場合
+public static String g_str = "";
+
+//JavaScriptの場合
+var g_str = "";
+
+//PHPの場合
+$g_str = "";
+
+//Pythonの場合
+g_str = ""
+*/
+char* g_str = "";
+
+/*
+//Javaの場合
+public static int[] g_array = new int[4];
+
+//JavaScriptの場合
+var g_array = [0,0,0,0];
+
+//PHPの場合
+$g_str = array(0, 0, 0, 0);
+
+//Pythonの場合
+g_str = [0,0,0,0]
+*/
+int g_array[] = {0,0,0,0};
+
 int Test(int num);
 void Test2(int in);
 
