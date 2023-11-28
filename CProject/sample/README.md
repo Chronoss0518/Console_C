@@ -6,3 +6,4 @@
 - [関数の作成方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample4.c)
 - [計算するための演算子の説明](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample5.c)
 - [条件に関する演算子と条件分岐、繰り返し文の作成方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample6.c)
+- [配列を伴わないポインターの使用方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample7.c)
