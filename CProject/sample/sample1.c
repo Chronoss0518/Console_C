@@ -71,6 +71,8 @@ int main()
     printfで再度入力した内容を出力します。
     */
     printf("Welcom To %s", &input);
+    /*
     //戻り値に0を返します//
+    */
     return 0;
 }
