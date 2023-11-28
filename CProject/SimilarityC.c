@@ -64,22 +64,22 @@ void Test2(int in);
 //Javaの場合
 public class TestStruct
 {
-  public int m_value;
+  public int m_value = 0;
 };
 
 //PHPの場合
 class TestStruct {
-  public $m_value;
+  public $m_value = 0;
 }
 
 //JavaScriptの場合
 class TestStruct {
-  
+  var m_value = 0;
 }
 
 //Pythonの場合
 class TestStruct:
-  m_value
+  m_value = 0
 */
 struct TestStruct
 {
