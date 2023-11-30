@@ -120,4 +120,16 @@ val2 = testStruct->num;
 
 testStruct->num = val2;
 
+/*
+//void ポインター
+
+voidのポインターを指定するとどんな型でも入る特殊な型になります。
+ただし、通常のポインターのように値を取り出すことはできないため、値型や構造体のポインターに一度変換してから利用する必要があります。
+この時、voidポインターを格納する型はどんなものでもいいため、値の取扱い方には注意が必要です。
+*/
+void* v_pointer = test;
+v_pointer = testStruct;
+
+char* val3 = v_pointer;
+
 }
