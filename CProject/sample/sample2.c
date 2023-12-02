@@ -58,10 +58,6 @@ TEST_PRINTF(printf); //-> printf("print");
 ////関数内で上記を利用すると次のようになります。
 TEST_TO_STRING(10);//->"10";
 
-////また、こちらは変数の中を参照するため次のように動作します
-int test = 100;
-TEST_TO_STRING(test);//->"100";
-
 //マクロに入れた値をそのままコードとして連結する//
 #define TEST_CODE(to_str1,to_str2) to_str1 ## to_str2
 
