@@ -1,3 +1,5 @@
+import TestFolder.TestJava2;
+
 class MainClass{
   public static void main(String[] args){
     System.out.println("Hello");
@@ -24,4 +26,6 @@ class MainClass{
     test.SetValue(test2);
 
   }
+
+  private TestJava2 test3 = new TestJava2();
 }
