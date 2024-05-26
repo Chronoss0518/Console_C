@@ -12,6 +12,7 @@
 6. [条件に関する演算子と条件分岐、繰り返し文の作成方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample6.c)
 7. [配列を伴わないポインターの使用方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample7.c)
 8. [配列を伴ったポインターの使用方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample8.c)
+9. [ここではプリプロセッサの利用方法](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sample9.c)
 
 ### こちらはいわば付録です(見ておくと便利な概念もあります)
 1. [標準入出力に関する記述](https://github.com/Chronoss0518/ConsoleProject/blob/master/CProject/sample/sampleEx1.c)
