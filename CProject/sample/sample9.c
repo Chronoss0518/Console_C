@@ -67,36 +67,37 @@ test += 10;
 
 
 #if 0
-#elif 0
 #else
 #endif
 /*
 #if 値
 #ifは値が真の場合#ifと特定のプリプロセッサ間に記述されたコードをコンパイルに含むプリプロセッサになります。
-
-
+#ifは#if,#ifdef,#ifndefのブロック内に0～1つ以上指定することができます。
 
 終わりには必ず#endifが必要になります。
 */
 
 #ifdef TEST
 #elif 0
+#elif 0
+#elif 0
 #else
 #endif
 /*
 #ifdef マクロ名
 #ifdefは対象のマクロが作成されている場合#ifdefと特定のプリプロセッサ間に記述されたコードをコンパイルに含むプリプロセッサになります。
+#ifdefは#if,#ifdef,#ifndefのブロック内に0～1つ以上指定することができます。
 
 終わりには必ず#endifが必要になります。
 */
 
 #ifndef TEST
 #elif 0
-#else
 #endif
 /*
 #ifndef マクロ名
 #ifndefは対象のマクロが作成されていない場合#ifndefと特定のプリプロセッサ間に記述されたコードをコンパイルに含むプリプロセッサになります。
+#ifndefは#if,#ifdef,#ifndefのブロック内に0～1つ以上指定することができます。
 
 終わりには必ず#endifが必要になります。
 */
@@ -104,14 +105,21 @@ test += 10;
 /*
 #ifと#ifdefと#ifndefの説明にある特定のプリプロセッサの説明になります。
 ここ以降の特定のプリプロセッサも同じものになります。
+また、以下のプリプロセッサは#if,#ifdef,#ifndefのサンプルコードに含まれます。
 
 #elif 値
 #elifは#if,#ifdef,#ifndef,#elifと#endifの間に記述できるプリプロセッサです。
 #elif前の#if,#ifdef,#ifndef,#elifが偽の場合に#elifと特定のプリプロセッサ間にあるコードをコンパイルに含むプリプロセッサになります。
+こちらは#else,#endifまでに0～1つ以上指定することができます。
 
 #else
 #elseは#if,#ifdef,#ifndef,#elifと#endifの間に記述できるプリプロセッサです。
-こちらは#endif 1つにつき#elseは1つまで指定することができます。
+こちらは#endif 1つにつき#elseは0～1つ指定することができます。
+
+#endif
+#endifは#if,#ifdef,#ifndef,#elif,#elseの後に必ずつける必要のあるプリプロセッサです。
+#if,#ifdef,#ifndef,#elif,#elseの後につけることで、これらの条件によってコンパイルに含むか含まないかのコードを区切ることができます。
+必ず#if,#ifdef,#ifndefと#endifを1セットとして用意する必要があります。
 */
 
 
