@@ -1,7 +1,6 @@
 //ここでは基本的な値型の種類と構造体を記述します。//
 
 //int型 基本的な数値を入れる代表的な型です//
-//サイズは2~4byteになります。(ここは使用しているCPUのbit数に変化します。)//
 int i_value = 0;
 
 //unsigned int型 int型の符号なし(+-がない)型になります。そのため負の値がなく、その分最大値が約2倍近く多くなります。//
@@ -16,19 +15,28 @@ char c_value = '\0';
 unsigned char uc_value = '\0';
 
 //short型 こちらも整数を入れる型になります//
-//サイズは2byteになります//
 short s_value = 0;
 
 //unsigned short型 short型の符号なし型になります。//
-//最大値は聞いたことある人にはわかりやすい65,535になります。//
 unsigned short us_value = 0;
 
 //long型 整数型では最大の容量を誇る型です//
-//サイズは4byteになります。//
 long l_value = 0;
 
 //unsigned long型 long型の符号なし型になります。//
 unsigned long ul_value = 0;
+
+//整数型のサイズは基本的に以下のようになります//
+/*
+char == unsigned cahr
+< short == unsigned short
+<= int == unsigned int
+<= long == unsigned long
+
+&&
+
+short < long
+*/
 
 //float型 小数点の計算ができる浮動小数点型になります。//
 //浮動小数点型には符号の有無の概念がないため、基本的にはすべて符号ありになります。//
