@@ -47,6 +47,21 @@ float f_value = 0.0f;
 //サイズは8byteになります。//
 double d_value = 0.0;
 
+//long double型 double型よりも大きい浮動小数点型になります。//
+//場合によってはdoubleと同じサイズになっていたりもします。//
+long double ld_value = 0.0;
+
+
+//C言語のバージョンアップにより追加された型//
+
+//long long型 long型よりも大きい整数型になります。//
+
+long long ll_value = 0;
+
+//unsigned long long型 long long型の符号なし型になります。//
+
+unsigned long long ull_value = 0;
+
 /*
 //構造体//
 構造体は変数をまとめたものになります。
