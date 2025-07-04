@@ -5,7 +5,7 @@
 
 標準入出力に関する関数や変数、定数がまとめられたファイルになります。
 詳細は以下のURLを参考にしてください
-https://ja.wikibooks.org/wiki/C%E8%A8%80%E8%AA%9E/%E6%A8%99%E6%BA%96%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/string.h
+https://ja.wikibooks.org/wiki/C%E8%A8%80%E8%AA%9E/%E6%A8%99%E6%BA%96%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/stdio.h
 */
 
 /*
