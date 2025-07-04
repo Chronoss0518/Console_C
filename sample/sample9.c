@@ -3,6 +3,7 @@
 /*
 //プリプロセッサとは//
 プリプロセッサはコンパイル時に実行する時に走る処理を指します。
+つまりは実行前に完結する処理になります。
 
 プリプロセッサは#から始まる1行になります。
 ここではプリプロセッサの一部を紹介します。
@@ -29,7 +30,7 @@
 こちらのプリプロセッサは指定したテキストを置き換えてコンパイルを行う機能になります。
 別名にマクロと言われています。
 
-#defineの指定方法は3種類あります。
+#defineの指定方法は3 + a種類あります。
 */
 
 
@@ -44,20 +45,28 @@
 こちらはマクロ名に紐づけられた値を指定します。
 */
 
-#define TEST_2(_value) \
-int test =  _value + 10;  \
-test += 10;
+#define TEST_2(_value) _value + 10;
 /*
 //#define マクロ名(引数) 値
 こちらは値に対して引数を指定することができます。
 こちらでは次のような書き方もできます。
 */
 
+
+#define TEST_2(_value) \
+int test =  _value + 10;  \
+test += 10
+/*
+こちらは#define後に\を付けると次の行までがdefineの置換範囲になります。
+\に回数指定はありません
+*/
+
+
 //マクロに引数をつけて代入する処理に置換する
 #define TEST_INSERT(val1,val2) val1 = val2
 
 //関数のように利用する//
-#define TEST_PRINTF(val) val("print")
+#define TEST_PRINTF(val1,val2) val1(val2)
 
 //マクロに入れた値を文字列に変換する//
 #define TEST_TO_STRING(to_str) #to_str
@@ -132,7 +141,7 @@ int test = 0;
 TEST_INSERT(test,100);//->test = 100;
 
 //関数のように利用する//
-TEST_PRINTF(printf); //-> printf("print");
+TEST_PRINTF(printf,"print"); //-> printf("print");
 
 //マクロに入れた値を文字列に変換する//
 printf(TEST_TO_STRING(10));//->"10";
