@@ -10,8 +10,8 @@
 4. [関数の作成方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample4.c)
 5. [計算するための演算子の説明](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample5.c)
 6. [条件に関する演算子と条件分岐、繰り返し文の作成方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample6.c)
-7. [配列を伴わないポインターの使用方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample7.c)
-8. [配列を伴ったポインターの使用方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample8.c)
+7. [配列を伴わないポインタの使用方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample7.c)
+8. [配列を伴ったポインタの使用方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample8.c)
 9. [ここではプリプロセッサの利用方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample9.c)
 
 ### こちらはいわば付録です(見ておくと便利な概念もあります)
