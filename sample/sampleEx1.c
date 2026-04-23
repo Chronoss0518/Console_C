@@ -99,4 +99,6 @@ int main()
 
     num = getch();
 
+    return 0;
+
 }

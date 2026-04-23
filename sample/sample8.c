@@ -38,4 +38,5 @@ void main()
     */
     int value = *(i_pointer + 3);//i_array[4]の位置を見ている//
 
+    return 0;
 }

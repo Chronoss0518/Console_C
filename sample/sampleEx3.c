@@ -25,4 +25,6 @@ int main()
 */
     free(i_pointer);
 
+    return 0;
+
 }

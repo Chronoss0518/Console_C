@@ -132,4 +132,6 @@ v_pointer = testStruct;
 
 char* val3 = (char*)v_pointer;
 
+
+return 0;
 }

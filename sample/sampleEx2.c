@@ -41,4 +41,6 @@ int main()
     指定した数値分文字列をコピーします//
     */
     test = strncpy(test,"Test3",3);//Tes 
+
+    return 0;
 }
