@@ -137,5 +137,11 @@ int array2[] = {0,1,2,3,4,5};
 
 int main()
 {
+    //cast
+
+    //ここではint型からfloat型へのcastを行う
+    f_value = (float)i_value;
+
+
     return 0;
 }
