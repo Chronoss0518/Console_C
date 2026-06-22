@@ -3,6 +3,12 @@
 個人的に教えるためのコードになります。<br>
 こちらのコードは学びなおすためのコードでもあります。
 
+### 前提
+対象の行の`//`以降の文字列または
+`/*`と`*/`で囲われた文字列はコメントアウトになります。
+つまり、コンパイル時に無視される内容です。
+コードを利用する際には気を付けてください
+
 ### こちらは基礎部分習得のためのコードです
 1. [Hello Worldすべてにコメントをつけてみた](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample1.c)
 2. [変数と定数の作成方法](https://github.com/Chronoss0518/Console_C/blob/master/sample/sample2.c)
